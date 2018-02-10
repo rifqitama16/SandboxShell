@@ -43,7 +43,7 @@ while true; do
     elif [[ $pil == 5 ]]; then
         less kallog
     elif [[ $pil == 6 ]]; then
-        > kallog && echo "Success"
+        > kallog && echo "Success" || echo "Failed"
     fi
     sleep 2
 done
